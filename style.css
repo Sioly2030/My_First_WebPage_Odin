@@ -1,0 +1,76 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+nav, .portada, .experiencias, .frase-celebre, .unete, footer {
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+nav, .portada, footer {
+    background-color: #1F2937;
+}
+
+nav, .portada {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.portada, .experiencias, .frase-celebre, .unete {
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.portada {
+    padding-top: 100px;
+}
+
+img {
+    background-color: grey;
+    width: 550px;
+    height: 250px;
+}
+
+ul, .d-encabezado {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.d-encabezado, h1 {
+    color: #f9f4f8;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    
+}
+
+
+
+
+
+footer {
+    align-items: center;
+    background-color: #1F2937;
+}
