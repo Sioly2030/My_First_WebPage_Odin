@@ -11,7 +11,7 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-nav, .portada, .experiencias, .frase-celebre, .unete, footer {
+nav, .portada, .cuadros, h2, .frase-celebre, .unete, footer {
     padding-left: 250px;
     padding-right: 250px;
 }
@@ -27,29 +27,38 @@ nav, .portada {
     
 }
 
+nav {
+    padding-top: 30px;
+}
 
-.portada, .experiencias, .frase-celebre, .unete {
+.portada, .cuadros, h2, .frase-celebre, .unete {
     padding-bottom: 100px;
     padding-top: 100px;
 }
 
 .portada {
     padding-top: 100px;
+    gap: 120px;
 }
 
-img {
+.d-portada-dos {
     background-color: grey;
     width: 550px;
     height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
 }
 
-ul, .d-encabezado {
+.d-encabezado {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul, button, #p-portada, .d-portada-dos {
     font-size: 18px;
     color: #E5E7EB;
-}
-
-.d-encabezado, h1 {
-    color: #f9f4f8;
 }
 
 ul {
@@ -61,15 +70,43 @@ ul {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 49px;
     font-weight: 900;
-    
+    color: #F9FAF8;
 }
 
+button {
+    background-color: #3882F6;
+    border-color: #3882F6;
+    font-weight: 900;
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+}
 
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.cuadros {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 
+}
+.cuadro-exper {
+    border: 3px solid #3882F6;
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+   
+}
 
-
+.frase-celebre {
+    background-color: #E5E7EB;
+}
 footer {
     align-items: center;
     background-color: #1F2937;
