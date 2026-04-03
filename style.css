@@ -11,7 +11,7 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-nav, .portada, .cuadros, h2, .frase-celebre, .unete, footer {
+nav, .portada, .cuadros, blockquote, h2, .unete, footer {
     padding-left: 250px;
     padding-right: 250px;
 }
@@ -31,7 +31,7 @@ nav {
     padding-top: 30px;
 }
 
-.portada, .cuadros, h2, .frase-celebre, .unete {
+.portada, blockquote, .unete {
     padding-bottom: 100px;
     padding-top: 100px;
 }
@@ -73,6 +73,8 @@ h1 {
     font-size: 49px;
     font-weight: 900;
     color: #F9FAF8;
+    align-items: flex-start;
+
 }
 
 button {
@@ -85,28 +87,48 @@ button {
 }
 
 h2 {
+    padding-top: 100px;
     text-align: center;
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    height: 170px;
+    
 }
+
 .cuadros {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-
+    align-items: flex-start;
+    height: 250px;
+    
 }
+
 .cuadro-exper {
-    border: 3px solid #3882F6;
-    width: 130px;
-    height: 130px;
+    border: 4px solid #3882F6;
+    width: 150px;
+    height: 150px;
     border-radius: 10px;
    
 }
 
-.frase-celebre {
+blockquote {
     background-color: #E5E7EB;
+    margin: 0;
+    font-size: 36px;
+    color: #1F2937;
 }
+
+#p-frase {
+    font-style: italic
+}
+
+cite {
+    font-weight: 900;
+    font-style: normal;
+    text-align: right;
+}
+
 footer {
     align-items: center;
     background-color: #1F2937;
